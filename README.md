@@ -24,3 +24,6 @@ npm run dev
 - Customer booking flow: type, parlour, service, provider, payment method, price calc with UPI GST (18%) and 10% discount, confirmation stored in MongoDB.
 - Admin login (username/password from `.env`).
 - Admin dashboard: search bookings, list latest, export to Excel.
+
+
+Check out my [GlamStudio Website](https://glam-studio-2.onrender.com/)
