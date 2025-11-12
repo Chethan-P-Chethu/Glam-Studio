@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gs-gradient: linear-gradient(135deg, #f0abfc, #f43f5e, #a78bfa);
+}
+
+.body-bg {
+  background: var(--gs-gradient);
+  background-attachment: fixed;
+}
+
+/* Global font */
+body {
+  font-family: 'Plus Jakarta Sans', Poppins, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+/* Animations */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
